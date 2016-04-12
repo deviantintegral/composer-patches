@@ -1,9 +1,12 @@
 {
-  "name": "cweagans/composer-patches",
+  "name": "deviantintegral/composer-patches",
   "description": "Provides a way to patch Composer packages.",
   "minimum-stability": "dev",
   "license": "BSD",
   "type": "composer-plugin",
+  "replace": {
+    "cweagans/composer-patches": "1.*"
+  },
   "extra": {
     "class": "cweagans\\Composer\\Patches"
   },
